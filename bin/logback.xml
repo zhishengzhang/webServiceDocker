@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<appender name="UmengUtil"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/umeng/%d{yyyy-MM-dd}_%i.log</fileNamePattern>
+			<maxHistory>60</maxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder>
+			<charset>UTF-8</charset>
+			<pattern>%d{yyyy-MM-dd} %d{HH:mm:ss} %msg%n</pattern>
+		</encoder>
+	</appender>
+
+
+	<logger name="com.slfinance.work.util.UmengUtil">
+		<appender-ref ref="UmengUtil" />
+	</logger>
+
+
+
+
+	<appender name="updateLog"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/update/%d{yyyy-MM-dd}_%i.log</fileNamePattern>
+			<maxHistory>60</maxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder>
+			<charset>UTF-8</charset>
+			<pattern>%d{yyyy-MM-dd} %d{HH:mm:ss} %msg%n</pattern>
+		</encoder>
+	</appender>
+
+
+
+
+
+	<logger name="com.slfinance.work.service.UpgradeClassService">
+		<appender-ref ref="updateLog" />
+	</logger>
+
+
+	<logger name="com.slfinance.work.service.UpgradeClassInfoServiceUtil">
+		<appender-ref ref="updateLog" />
+	</logger>
+
+	<include resource="org/springframework/boot/logging/logback/base.xml" />
+	<logger name="org.springframework.web" level="INFO" />
+	<logger name="org.springframework.boot" level="INFO" />
+
+	<!--log4jdbc建议生产环境关闭 -->
+	<logger name="jdbc.sqltiming" level="INFO" />
+
+	<!-- springframework -->
+	<logger name="org.springframework" level="INFO" />
+	<!-- hibernate -->
+	<logger name="org.hibernate" level="INFO" />
+	<!-- apache -->
+	<logger name="org.apache" level="INFO" />
+	<!-- 启动时生成建表语句建议生产环境关闭 -->
+	<logger name="log4j.logger.org.hibernate.tool.hbm2ddl" level="INFO" />
+
+
+</configuration>

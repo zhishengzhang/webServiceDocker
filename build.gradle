@@ -1,0 +1,114 @@
+buildscript {
+    ext {
+        springBootVersion = '1.4.2.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath ("se.transmode.gradle:gradle-docker:1.2")
+        classpath("io.spring.gradle:dependency-management-plugin:0.6.1.RELEASE")
+    }
+}
+group = 'hw'
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'idea' 
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'war'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'docker'
+
+
+jar {
+    baseName = 'hw-docker'
+    version =  '1.0'
+}
+
+war {
+    baseName = 'educationDocker'
+    version = '0.0.1-SNAPSHOT'
+}
+
+//sourceCompatibility = 1.8
+// targetCompatibility = 1.8
+
+mainClassName = "com.slfinance.work.EducationApplication"
+applicationDefaultJvmArgs = ["-Dfile.encoding=UTF-8"]
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven {
+        url "http://192.16.150.201:8081/nexus/content/groups/public/"
+    }
+}
+
+configurations {
+    providedRuntime
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-data-jpa:1.4.2.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-jersey:1.4.2.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-mail:1.4.2.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-freemarker:1.4.2.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter:1.4.2.RELEASE")
+    compile "com.google.guava:guava:17.0"
+    compile("mysql:mysql-connector-java:5.1.38")
+	compile "org.hibernate:hibernate-ehcache:5.0.0.Final"
+	compile "commons-fileupload:commons-fileupload:1.2.1"
+	compile "commons-io:commons-io:2.4"
+	compile "org.apache.commons:commons-lang3:3.1"
+	compile "com.itextpdf:itextpdf:5.2.0"
+	compile "com.itextpdf:itext-asian:5.2.0"
+	compile "org.apache.httpcomponents:httpclient:4.3.5"
+	compile "org.json:json:20090211"
+	compile "com.umeng:push:1.2"
+    
+    providedCompile "org.projectlombok:lombok:1.14.8"
+    providedRuntime("org.springframework.boot:spring-boot-starter-tomcat:1.4.2.RELEASE")
+    testCompile("org.springframework.boot:spring-boot-starter-test:1.4.2.RELEASE")
+    testCompile("com.jayway.restassured:rest-assured:2.4.0")
+
+}
+
+
+eclipse {
+    classpath {
+         containers.remove('org.eclipse.jdt.launching.JRE_CONTAINER')
+         containers 'org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8'
+    }
+}
+
+compileJava.options.encoding = 'UTF-8'
+tasks.withType(JavaCompile) {  
+    options.encoding = "UTF-8"  
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.2.1'
+}
+
+task buildDocker(type: Docker, dependsOn: build) {
+    push = true
+    applicationName = jar.baseName
+    dockerfile = file('src/main/docker/Dockerfile')
+    doFirst {
+        copy {
+            from jar
+            into stageDir
+        }
+    }
+}
+
+docker {
+    useApi true
+    hostUrl 'http://192.16.3.135:2357'
+    apiUsername 'nanjiwubing'
+    apiPassword 'haituoxie123'
+    apiEmail '317919091@qq.com'
+}

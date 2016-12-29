@@ -1,0 +1,9 @@
+CREATE FUNCTION  trunc(gdate datetime) RETURNS varchar(255)  
+BEGIN  
+DECLARE x VARCHAR(255) DEFAULT '';  
+SET x= date_format(gdate,'%Y-%m-%d');  
+RETURN x;  
+END
+
+
+

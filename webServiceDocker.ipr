@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactManager">
+    <artifact type="war" name="Gradle : hw : education-0.0.1-SNAPSHOT.war">
+      <output-path>$PROJECT_DIR$/build/classes/artifacts/webService0812</output-path>
+      <properties id="gradle-properties">
+        <options external-project-path="$PROJECT_DIR$" />
+      </properties>
+      <root id="archive" name="education-0.0.1-SNAPSHOT.war">
+        <element id="javaee-facet-resources" facet="webService0812_main/web/Web Gradle : education-0.0.1-SNAPSHOT.war" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="webService0812_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-jersey:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-mail:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-freemarker:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: com.google.guava:guava:17.0" />
+            <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:5.1.38" />
+            <element id="library" level="project" name="Gradle: org.hibernate:hibernate-ehcache:5.0.0.Final" />
+            <element id="library" level="project" name="Gradle: commons-fileupload:commons-fileupload:1.2.1" />
+            <element id="library" level="project" name="Gradle: commons-io:commons-io:2.4" />
+            <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.1" />
+            <element id="library" level="project" name="Gradle: com.itextpdf:itextpdf:5.2.0" />
+            <element id="library" level="project" name="Gradle: com.itextpdf:itext-asian:5.2.0" />
+            <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpclient:4.3.5" />
+            <element id="library" level="project" name="Gradle: org.json:json:20090211" />
+            <element id="library" level="project" name="Gradle: com.umeng:push:1.2" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-aop:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.hibernate:hibernate-core:5.0.11.Final" />
+            <element id="library" level="project" name="Gradle: org.hibernate:hibernate-entitymanager:5.0.11.Final" />
+            <element id="library" level="project" name="Gradle: javax.transaction:javax.transaction-api:1.2" />
+            <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-jpa:1.10.5.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-aspects:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-validation:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.4" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-server:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet-core:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.ext:jersey-bean-validation:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.ext:jersey-spring3:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.media:jersey-media-json-jackson:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.hibernate:hibernate-validator:5.2.4.Final" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-context-support:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: com.sun.mail:javax.mail:1.5.6" />
+            <element id="library" level="project" name="Gradle: org.freemarker:freemarker:2.3.25-incubating" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.17" />
+            <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" />
+            <element id="library" level="project" name="Gradle: net.sf.ehcache:ehcache-core:2.4.3" />
+            <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpcore:4.4.5" />
+            <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.10" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.aspectj:aspectjweaver:1.8.9" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-jdbc:8.5.6" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" />
+            <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
+            <element id="library" level="project" name="Gradle: antlr:antlr:2.7.7" />
+            <element id="library" level="project" name="Gradle: org.jboss:jandex:2.0.0.Final" />
+            <element id="library" level="project" name="Gradle: dom4j:dom4j:1.6.1" />
+            <element id="library" level="project" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" />
+            <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-commons:1.12.5.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-orm:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.21" />
+            <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.21" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.4" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.4" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-common:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-client:2.23.2" />
+            <element id="library" level="project" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0.1" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.media:jersey-media-jaxb:2.23.2" />
+            <element id="library" level="project" name="Gradle: javax.annotation:javax.annotation-api:1.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-api:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:javax.inject:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.1.0.Final" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:spring-bridge:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.ext:jersey-entity-filtering:2.23.2" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.8.4" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.4" />
+            <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.3" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: javax.activation:activation:1.1" />
+            <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.7" />
+            <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.21" />
+            <element id="library" level="project" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.21" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.6" />
+            <element id="library" level="project" name="Gradle: xml-apis:xml-apis:1.4.01" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:osgi-resource-locator:1.0.1" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-utils:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:config-types:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-core:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-config:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-runlevel:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:class-model:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.4" />
+            <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.7" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:asm-all-repackaged:2.5.0-b05" />
+          </element>
+        </element>
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/webService0812/exploded/education-0.0.1-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="Gradle : hw : education-0.0.1-SNAPSHOT.war (exploded)">
+      <output-path>$PROJECT_DIR$/build/classes/artifacts/webService0812/exploded/education-0.0.1-SNAPSHOT.war</output-path>
+      <properties id="gradle-properties">
+        <options external-project-path="$PROJECT_DIR$" />
+      </properties>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="webService0812_main/web/Web Gradle : education-0.0.1-SNAPSHOT.war" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="webService0812_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-jersey:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-mail:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-freemarker:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: com.google.guava:guava:17.0" />
+            <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:5.1.38" />
+            <element id="library" level="project" name="Gradle: org.hibernate:hibernate-ehcache:5.0.0.Final" />
+            <element id="library" level="project" name="Gradle: commons-fileupload:commons-fileupload:1.2.1" />
+            <element id="library" level="project" name="Gradle: commons-io:commons-io:2.4" />
+            <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.1" />
+            <element id="library" level="project" name="Gradle: com.itextpdf:itextpdf:5.2.0" />
+            <element id="library" level="project" name="Gradle: com.itextpdf:itext-asian:5.2.0" />
+            <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpclient:4.3.5" />
+            <element id="library" level="project" name="Gradle: org.json:json:20090211" />
+            <element id="library" level="project" name="Gradle: com.umeng:push:1.2" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-aop:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.hibernate:hibernate-core:5.0.11.Final" />
+            <element id="library" level="project" name="Gradle: org.hibernate:hibernate-entitymanager:5.0.11.Final" />
+            <element id="library" level="project" name="Gradle: javax.transaction:javax.transaction-api:1.2" />
+            <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-jpa:1.10.5.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-aspects:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-validation:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.4" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-server:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet-core:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.ext:jersey-bean-validation:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.ext:jersey-spring3:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.media:jersey-media-json-jackson:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.hibernate:hibernate-validator:5.2.4.Final" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-context-support:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: com.sun.mail:javax.mail:1.5.6" />
+            <element id="library" level="project" name="Gradle: org.freemarker:freemarker:2.3.25-incubating" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.4.2.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.17" />
+            <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" />
+            <element id="library" level="project" name="Gradle: net.sf.ehcache:ehcache-core:2.4.3" />
+            <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpcore:4.4.5" />
+            <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.10" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.aspectj:aspectjweaver:1.8.9" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-jdbc:8.5.6" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" />
+            <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
+            <element id="library" level="project" name="Gradle: antlr:antlr:2.7.7" />
+            <element id="library" level="project" name="Gradle: org.jboss:jandex:2.0.0.Final" />
+            <element id="library" level="project" name="Gradle: dom4j:dom4j:1.6.1" />
+            <element id="library" level="project" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" />
+            <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-commons:1.12.5.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-orm:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.21" />
+            <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.21" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.4" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.4" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-common:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-client:2.23.2" />
+            <element id="library" level="project" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0.1" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.media:jersey-media-jaxb:2.23.2" />
+            <element id="library" level="project" name="Gradle: javax.annotation:javax.annotation-api:1.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-api:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:javax.inject:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.1.0.Final" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:spring-bridge:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.ext:jersey-entity-filtering:2.23.2" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.8.4" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.4" />
+            <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.3" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.4.RELEASE" />
+            <element id="library" level="project" name="Gradle: javax.activation:activation:1.1" />
+            <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.7" />
+            <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.21" />
+            <element id="library" level="project" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.21" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.6" />
+            <element id="library" level="project" name="Gradle: xml-apis:xml-apis:1.4.01" />
+            <element id="library" level="project" name="Gradle: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:osgi-resource-locator:1.0.1" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-utils:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:config-types:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-core:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-config:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-runlevel:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2:class-model:2.5.0-b05" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.4" />
+            <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.7" />
+            <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:asm-all-repackaged:2.5.0-b05" />
+          </element>
+        </element>
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/webService0812/exploded/education-0.0.1-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+        </element>
+      </root>
+    </artifact>
+  </component>
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="webService0812_main" target="1.8" />
+      <module name="webService0812_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="CopyrightManager" default="" />
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/build.gradle" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../Test" value="2963592502879" />
+        <entry key="$PROJECT_DIR$/../eduPro" value="1451008941252" />
+        <entry key="$PROJECT_DIR$/../eduTrunk" value="1481017456636" />
+        <entry key="$PROJECT_DIR$/../hw20160530" value="1465895490878" />
+        <entry key="$PROJECT_DIR$/../hwWebService" value="1465375013491" />
+        <entry key="$PROJECT_DIR$" value="1481864322350" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/tools/gradle/gradle-3.2.1-all/gradle-3.2.1" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webService0812.iml" filepath="$PROJECT_DIR$/.idea/modules/webService0812.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webService0812_main.iml" filepath="$PROJECT_DIR$/.idea/modules/webService0812_main.iml" group="webService0812" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webService0812_test.iml" filepath="$PROJECT_DIR$/.idea/modules/webService0812_test.iml" group="webService0812" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="libraryTable">
+    <library name="Gradle: antlr:antlr:2.7.7">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: ch.qos.logback:logback-classic:1.1.7">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/6cfaf5c02fb50bfdf7ea5e563955d3c229d7e154/logback-classic-1.1.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: ch.qos.logback:logback-core:1.1.7">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.7/7873092d39ef741575ca91378a6a21c388363ac8/logback-core-1.1.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.7/15a62dbee75aadf62b7d35640533262d764b29d3/logback-core-1.1.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.4">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.4/de3570327cf8d1d4f37920535c51a1f74225a6de/jackson-annotations-2.8.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.4/be29f3af1b8864b0589834c05bec9d7108d4713b/jackson-annotations-2.8.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.4">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.4/ca365c0817cc345ea831cae7c4e9b42a72b32281/jackson-core-2.8.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.4/2b19a5be7b533aea3a4b7931ee518d5642c5c513/jackson-core-2.8.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.4">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.4/1c36c81e79cacdf48116afba8495e3393d267ba1/jackson-databind-2.8.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.4/2b4edfb6d6bad1710951837b4911eddd1415228f/jackson-databind-2.8.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.8.4">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.8.4/6c0ceb3c9fed2e225b0cc2a45533574df393f606/jackson-jaxrs-base-2.8.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.8.4/30827ed4766057952c9f17a15df16f16c99085e7/jackson-jaxrs-base-2.8.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.4">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.8.4/839366ece31829a19cb15719b2b54a3f9f91148d/jackson-jaxrs-json-provider-2.8.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.8.4/b86c8a3f85be0a399fd22ab3e742bcfb5e4df5e0/jackson-jaxrs-json-provider-2.8.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.4">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.8.4/d2eec7cf6c4284f7d5f0b1a72dc7cfa9d6bb579d/jackson-module-jaxb-annotations-2.8.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.8.4/6a1ff307ed6589bce931a41e06c6f1c566cee13a/jackson-module-jaxb-annotations-2.8.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml:classmate:1.3.3">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.3/864c8e370a691e343210cc7c532fc198cee460d8/classmate-1.3.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.3/959904631fc3caef02ab82c4ee31c6882b910b12/classmate-1.3.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.google.guava:guava:17.0">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.google.guava/guava/17.0/7ca0efbeb87ca845b5d7a0ac9c21a4b7b95f7b28/guava-17.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.itextpdf:itext-asian:5.2.0">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.itextpdf/itext-asian/5.2.0/2932ae1179ad058104349b3375305b582ce5a219/itext-asian-5.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.itextpdf:itextpdf:5.2.0">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.itextpdf/itextpdf/5.2.0/9b8f884e73a16b2195bed6c6ddc324bde6102d0/itextpdf-5.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.itextpdf/itextpdf/5.2.0/be5fd09db05b2cf06ce86bc628d543465cdef381/itextpdf-5.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.jayway.jsonpath:json-path:2.2.0">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.2.0/22290d17944bd239fabf5ac69005a60a7ecbbbcb/json-path-2.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.2.0/546dfa7cadacf40752c42bfd12af3b7a935920af/json-path-2.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.jayway.restassured:json-path:2.4.0">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.jayway.restassured/json-path/2.4.0/8a8215a4398f7398d21cb70b2b7d64445b705c8c/json-path-2.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.jayway.restassured/json-path/2.4.0/e9de232f253cbec8da522beca00eb91527259fd7/json-path-2.4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.jayway.restassured:rest-assured-common:2.4.0">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.jayway.restassured/rest-assured-common/2.4.0/93da59990c670fd494b1084f0f506c5db32cd347/rest-assured-common-2.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.jayway.restassured/rest-assured-common/2.4.0/ead6a9aca80f0bbe85fe6346b248d54d74b3acbc/rest-assured-common-2.4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.jayway.restassured:rest-assured:2.4.0">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.jayway.restassured/rest-assured/2.4.0/28f5c930872ca8e9d370a9bd94e40c7ef490430a/rest-assured-2.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.jayway.restassured/rest-assured/2.4.0/aaee268fd2c3337d3747ef025542d8c1720f512c/rest-assured-2.4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.jayway.restassured:xml-path:2.4.0">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.jayway.restassured/xml-path/2.4.0/5589df4e51553a4c439408a1ef285927a78b3aaf/xml-path-2.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.jayway.restassured/xml-path/2.4.0/303fc81438f4ac21c8ba9676e1aa58947b0dfa70/xml-path-2.4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.sun.mail:javax.mail:1.5.6">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.5.6/ab5daef2f881c42c8e280cbe918ec4d7fdfd7efe/javax.mail-1.5.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.5.6/7a9a2f66d64bed834a9090c4e91e78892e2e67a1/javax.mail-1.5.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.umeng:push:1.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/com.umeng/push/1.2/c4a66074cb6aa117644ad248baf741101fc9b3a0/push-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: commons-codec:commons-codec:1.10">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/11fb3d88ae7e3b757d70237064210ceb954a5a04/commons-codec-1.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: commons-fileupload:commons-fileupload:1.2.1">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.2.1/384faa82e193d4e4b0546059ca09572654bc3970/commons-fileupload-1.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.2.1/eded3ff1ed6dff680af4a8c31a5a187536aed126/commons-fileupload-1.2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: commons-io:commons-io:2.4">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: dom4j:dom4j:1.6.1">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/a8e7149359255f43e0e5e3b1837948f9ed5861fb/dom4j-1.6.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: javax.activation:activation:1.1">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/javax.activation/activation/1.1/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: javax.annotation:javax.annotation-api:1.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/ad18a02db08eaee697f812e333f692fc51129e4a/javax.annotation-api-1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: javax.transaction:javax.transaction-api:1.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/d81aff979d603edd90dcd8db2abc1f4ce6479e3e/javax.transaction-api-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/5d1fb3fe056fe51e6f6ed9b4ef4898a774ed69c0/javax.transaction-api-1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: javax.validation:validation-api:1.1.0.Final">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0.1">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-api-2.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/a20db7429fd8dfff74335ec867472b71c345049b/javax.ws.rs-api-2.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: junit:junit:4.12">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: mysql:mysql-connector-java:5.1.38">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.38/dbbd7cd309ce167ec8367de4e41c63c2c8593cc5/mysql-connector-java-5.1.38.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.38/b83cac8c938dfb9b7a8e191e2d482be88eb8280c/mysql-connector-java-5.1.38-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net.minidev:accessors-smart:1.1">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.1/a527213f2fea112a04c9bdf0ec0264e34104cd08/accessors-smart-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.1/b5c478091ad2bfd497758094b00936543393415b/accessors-smart-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net.minidev:json-smart:2.2.1">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/net.minidev/json-smart/2.2.1/5b9e5df7a62d1279b70dc882b041d249c4f0b002/json-smart-2.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/net.minidev/json-smart/2.2.1/fe70f8807c06ef9dd27b695830149c118010308f/json-smart-2.2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net.sf.ehcache:ehcache-core:2.4.3">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.4.3/fd258ef6959f27fb678b04f90139ded4588e2d15/ehcache-core-2.4.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.4.3/feb524620a8697865caa581a51a2e0921620b71c/ehcache-core-2.4.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.commons:commons-lang3:3.1">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/8d30b90ae8bda4fbac8363161c8a9b5a99e23baf/commons-lang3-3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.httpcomponents:httpclient:4.3.5">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.5/9783d89b8eea20a517a4afc5f979bd2882b54c44/httpclient-4.3.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.5/9351922abd5e659dcbacb1d38b81d8069bac797b/httpclient-4.3.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.httpcomponents:httpcore:4.4.5">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.5/e7501a1b34325abb00d17dde96150604a0658b54/httpcore-4.4.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.5/542498265bc5a238dcb0275172b8070bd51e30af/httpcore-4.4.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.httpcomponents:httpmime:4.5.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.2/22b4c53dd9b6761024258de8f9240c3dce6ea368/httpmime-4.5.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.2/ca23fd61a082eab682fc0ffd29e37d09eab07180/httpmime-4.5.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.6">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.6/960834b5abc6b2135250487abf6c060a0fa5a22e/tomcat-embed-core-8.5.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.6/758721dd7e0d44edbc1048c47a8b7c56e6ba1c9d/tomcat-embed-core-8.5.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.6">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.6/a102298d8dc72f4065533d5962953d753b172602/tomcat-embed-el-8.5.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.6/226e45ecd3ade37a2a8ddcf0f212133ecf7bf823/tomcat-embed-el-8.5.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.6">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.6/6f6940a216b380ea8506530c374fcfeef820ba54/tomcat-embed-websocket-8.5.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.6/bc5ba33a18c04074dd1988edd1f9cfce9ce0ed6a/tomcat-embed-websocket-8.5.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.tomcat:tomcat-jdbc:8.5.6">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.5.6/feb10a9e22f70565c7556f327b0481dba8587bbc/tomcat-jdbc-8.5.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.5.6/6ca6bb25bc4fb7c929a38a9d04814ddf4214e2c1/tomcat-jdbc-8.5.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.tomcat:tomcat-juli:8.5.6">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.5.6/83d2d1e3362ecca504f3bf8ed1bc4cc451754d24/tomcat-juli-8.5.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.5.6/64fb2a6a592d1acb01b5befc31479e0ea618af69/tomcat-juli-8.5.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.aspectj:aspectjweaver:1.8.9">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.9/db28774f477f07220eac18d5ec9c4e01f48589d7/aspectjweaver-1.8.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.9/9a10b6740c821d03b800a6062284b4a99de4fbeb/aspectjweaver-1.8.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.assertj:assertj-core:2.5.0">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.assertj/assertj-core/2.5.0/fcd21db4c5f33e5dcac69bf1816415fe0647582f/assertj-core-2.5.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.assertj/assertj-core/2.5.0/2083e85c9ee939e06d616bf4ab238ec24f2c828/assertj-core-2.5.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.ccil.cowan.tagsoup:tagsoup:1.2.1">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.ccil.cowan.tagsoup/tagsoup/1.2.1/5584627487e984c03456266d3f8802eb85a9ce97/tagsoup-1.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.ccil.cowan.tagsoup/tagsoup/1.2.1/31cbf81bece906e382034d2b04e2e5c47e864c17/tagsoup-1.2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.codehaus.groovy:groovy-json:2.4.7">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.4.7/c62bc909e3bb996cbc9509435a522f6fb8cf1461/groovy-json-2.4.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.4.7/67762aa4942516a50c831b18a114a6e89e46893b/groovy-json-2.4.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.codehaus.groovy:groovy-xml:2.4.7">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/2.4.7/864b9dc44fb0e05f329fad473e8b4df172f1b48f/groovy-xml-2.4.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/2.4.7/c4bb383c972794bf9bf2b4a602530260f5e71660/groovy-xml-2.4.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.codehaus.groovy:groovy:2.4.7">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.7/10870e6511f544ce45152d0ad08d7514a00c8201/groovy-2.4.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.7/8d7490c6cd820826789089d537aad569642a23d2/groovy-2.4.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.freemarker:freemarker:2.3.25-incubating">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.25-incubating/9b31ed0d0321dfc1ae7ce63f2557df04b52a79e3/freemarker-2.3.25-incubating.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.25-incubating/2adddae6c2f4d79b337581f95618e5a7fc271e22/freemarker-2.3.25-incubating-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2.external/aopalliance-repackaged/2.5.0-b05/51becf370a71dad73e6bcc554efb7246ad24c492/aopalliance-repackaged-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2.external/aopalliance-repackaged/2.5.0-b05/71228399130f5051a96d2c9363a066d1a8c9d0d/aopalliance-repackaged-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2.external:asm-all-repackaged:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2.external/asm-all-repackaged/2.5.0-b05/fdaef52d078f8fb283cf64723d51e3ff827ec444/asm-all-repackaged-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2.external/asm-all-repackaged/2.5.0-b05/9e7b94061d819d62b5cba92a261e009d323deb53/asm-all-repackaged-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2.external:javax.inject:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.5.0-b05/aad1872e1bf5e573229b7ec143d6f83f33b753e4/javax.inject-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.5.0-b05/194f20942f15218468be44529fe5362bc6b1ed7d/javax.inject-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2:class-model:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/class-model/2.5.0-b05/b2c3f61b452ec6fe3406face9f29359c8dfee2fe/class-model-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/class-model/2.5.0-b05/bfe3bb1c00ae125489179eb8162c76983ef7e210/class-model-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2:config-types:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/config-types/2.5.0-b05/3870dd88220b99fc6be1f4b54aeb8442aed3c3a6/config-types-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/config-types/2.5.0-b05/f0bcccc155cdd7f8eb4f638ae6503f894a46d30f/config-types-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2:hk2-api:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-api/2.5.0-b05/d54a52f5b869b247348cb0ec08edd432c22ef65f/hk2-api-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-api/2.5.0-b05/f442ec8b65df69b7abe57bcbee3acf90af6600bc/hk2-api-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2:hk2-config:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-config/2.5.0-b05/54a48389905d84fe9840d9016ad3c4dcc358f445/hk2-config-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-config/2.5.0-b05/87e19151e9450f8dbfb09736c5c117b3d5b1123d/hk2-config-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2:hk2-core:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-core/2.5.0-b05/cff50bf8954aa598fca66c741c206168ac3802fd/hk2-core-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-core/2.5.0-b05/19a0becb9480ad94ce1f43e62dd45d8cff680a21/hk2-core-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-locator/2.5.0-b05/bed6e7565ce9491a53f047c17e3951b4dfd101fa/hk2-locator-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-locator/2.5.0-b05/3e3d048eae9f2547f8246646aebf3fd8dffdc552/hk2-locator-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2:hk2-runlevel:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-runlevel/2.5.0-b05/ecbe98ddb2365f083d1bc407bb564951d970de98/hk2-runlevel-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-runlevel/2.5.0-b05/c7c5593f7b5183eb686bbd45e2a32db6edaa5a2c/hk2-runlevel-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2:hk2-utils:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-utils/2.5.0-b05/ede783b3e16339f83603e3293c83bda7a88526bc/hk2-utils-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-utils/2.5.0-b05/f7d900a9bec1eaf22de404a8ca8921e5854064b8/hk2-utils-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2:hk2:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/2.5.0-b05/8d407b86c3867f72abbcfea82d306e4effd6093d/hk2-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/2.5.0-b05/7f7173b05a2b2ba59a8f9aca98c7e006974020dd/hk2-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2:osgi-resource-locator:1.0.1">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/osgi-resource-locator/1.0.1/4ed2b2d4738aed5786cfa64cba5a332779c4c708/osgi-resource-locator-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/osgi-resource-locator/1.0.1/b5685f8eaa7d83351b185a82a92abcd1b8b87fc8/osgi-resource-locator-1.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.hk2:spring-bridge:2.5.0-b05">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/spring-bridge/2.5.0-b05/5a06624b45c1b6b4a82f87bc0f0e9f3c4fd36f5a/spring-bridge-2.5.0-b05.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.hk2/spring-bridge/2.5.0-b05/cf3038a60f0d58dc9a4a22aa1ba8636f34f3468b/spring-bridge-2.5.0-b05-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.bundles.repackaged/jersey-guava/2.23.2/eead3375706f2d5df991e14821efe509bfb182e0/jersey-guava-2.23.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.bundles.repackaged/jersey-guava/2.23.2/2ad15a107ef0be6b63d3a197acd70b648c5f6ad7/jersey-guava-2.23.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet-core:2.23.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.23.2/c9937b31b90d61bd543f6805f93b6c394de6e842/jersey-container-servlet-core-2.23.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.23.2/6a4678475ac6c300ff714e3989d9b09b55e16b37/jersey-container-servlet-core-2.23.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet:2.23.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet/2.23.2/47da89ccedf144858c1a604b69c9b9515c2c9ea/jersey-container-servlet-2.23.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet/2.23.2/943a6fc7fbe4448764dd0ff24de9f61f5759c028/jersey-container-servlet-2.23.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.jersey.core:jersey-client:2.23.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-client/2.23.2/90ea1d2edb93653d15fce3c3b4a20f2237690900/jersey-client-2.23.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-client/2.23.2/ab0304591877ec5ef1134625f05b2ccb181c70c7/jersey-client-2.23.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.jersey.core:jersey-common:2.23.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-common/2.23.2/84df56324789921fb408985dc1355f628de0b80c/jersey-common-2.23.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-common/2.23.2/fb3029d4f936cddc6af423dc00c857bc35bae03c/jersey-common-2.23.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.jersey.core:jersey-server:2.23.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.23.2/f17025b8e32b48bee43b2c9ca40e21fc90cf38fb/jersey-server-2.23.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.23.2/df33a03c069ab70d114eaefd6ab3dbcde673d739/jersey-server-2.23.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.jersey.ext:jersey-bean-validation:2.23.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-bean-validation/2.23.2/da31d624a9f1c0820a9138d49fcc593b685c5804/jersey-bean-validation-2.23.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-bean-validation/2.23.2/7aea704ae3dcf0e36d8f357a71b81242b0014eb8/jersey-bean-validation-2.23.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.jersey.ext:jersey-entity-filtering:2.23.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-entity-filtering/2.23.2/f2d453e79ccf4c1f6e6a62553ff6fa91a3b19820/jersey-entity-filtering-2.23.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-entity-filtering/2.23.2/51fa6e7ecd268ed78257d01a47e958793a874bd4/jersey-entity-filtering-2.23.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.jersey.ext:jersey-spring3:2.23.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-spring3/2.23.2/e4b2030dccde4aae0816dabffa93e3ba57c28dfb/jersey-spring3-2.23.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-spring3/2.23.2/593f7cbbf538401bca96844486dfed5dccf1756b/jersey-spring3-2.23.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.jersey.media:jersey-media-jaxb:2.23.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-jaxb/2.23.2/25c2d322e193371ab800367f553207290da1cb0b/jersey-media-jaxb-2.23.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-jaxb/2.23.2/2feb4ee7af1aca462f8eff2645473f10edce7a88/jersey-media-jaxb-2.23.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.glassfish.jersey.media:jersey-media-json-jackson:2.23.2">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-json-jackson/2.23.2/d1e998ab7f00dbdbc543b1a916f63c2616c202ab/jersey-media-json-jackson-2.23.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-json-jackson/2.23.2/467a9cd33d31f30bccd26b4f58aa947fd12feea1/jersey-media-json-jackson-2.23.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.hamcrest:hamcrest-core:1.3">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.hamcrest:hamcrest-library:1.3">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/47a7ee46628ab7133129cd7cef1e92657bc275e/hamcrest-library-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.1.Final/71e1cff3fcb20d3b3af4f3363c3ddb24d33c6879/hibernate-commons-annotations-5.0.1.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.1.Final/203038e420aaa3fa6df8bad4fda19ca1e2824005/hibernate-commons-annotations-5.0.1.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/33fbaa7276b774ef0925f541640f6ff23fbc62dc/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.hibernate:hibernate-core:5.0.11.Final">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.11.Final/c2487fb72a2217a7cec9ab478d4c21a36fc09977/hibernate-core-5.0.11.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.11.Final/f798d6a909ca06997b9350948edb79f8e19171af/hibernate-core-5.0.11.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.hibernate:hibernate-ehcache:5.0.0.Final">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hibernate/hibernate-ehcache/5.0.0.Final/93bd167af1e4867743ebc604ce58afd0e57d9951/hibernate-ehcache-5.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hibernate/hibernate-ehcache/5.0.0.Final/8f4ee619b3f0fdab44ff667a15b518c6beae0d0c/hibernate-ehcache-5.0.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.hibernate:hibernate-entitymanager:5.0.11.Final">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.0.11.Final/549565caed4e0bcb816843693e66ff7b04ce025f/hibernate-entitymanager-5.0.11.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.0.11.Final/c8f7030c720b9d16a30fe312af5c86bfceece570/hibernate-entitymanager-5.0.11.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.hibernate:hibernate-validator:5.2.4.Final">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/fb18766b576aa6632bcfe9a20a023cbd52bf9769/hibernate-validator-5.2.4.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/b02d7b80cdadbfc51106252238fc1a667c8287eb/hibernate-validator-5.2.4.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.javassist:javassist:3.20.0-GA">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0/javassist-3.20.0-GA.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3616bb87707910296e2c195dc016287080bba5af/jboss-logging-3.3.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3625e6818158ddb4754fa2ec51299e5f57e596b4/jboss-logging-3.3.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss:jandex:2.0.0.Final">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.jboss/jandex/2.0.0.Final/3e899258936f94649c777193e1be846387ed54b3/jandex-2.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.jboss/jandex/2.0.0.Final/614a36762219d78e9ea3be22c47e6c2933e2db71/jandex-2.0.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.json:json:20090211">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.json/json/20090211/c183aa3a2a6250293808bba12262c8920ce5a51c/json-20090211.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.mockito:mockito-core:1.10.19">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/8269667b73d9616600359a9b0ba1b1c7d0cf7a97/mockito-core-1.10.19-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.objenesis:objenesis:2.1">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/611a57d836e2c320d59f9851d4ad587f3c8472e/objenesis-2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.ow2.asm:asm:5.0.3">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-5.0.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.projectlombok:lombok:1.14.8">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.projectlombok/lombok/1.14.8/8ac073941721e0b521ec8e8bad088b1e7b8cd332/lombok-1.14.8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.projectlombok/lombok/1.14.8/ae5d70b49f5522a5c63abee50d9e9ad7a1cfce4e/lombok-1.14.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.skyscreamer:jsonassert:1.3.0">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.3.0/d5c250eb122496866de36dc84f98e2945845ecdd/jsonassert-1.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.3.0/aa6d987417de4f968f2deac4254fa341986bb25d/jsonassert-1.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.slf4j:jcl-over-slf4j:1.7.21">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.21/331b564a3a42f002a0004b039c1c430da89062cd/jcl-over-slf4j-1.7.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.21/c565ca9c1239b38fe4a70e4101086c4e880f6358/jcl-over-slf4j-1.7.21-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.slf4j:jul-to-slf4j:1.7.21">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.21/2f22c882ffa479d1e9ff4eb0e8e2c29f2a0871ed/jul-to-slf4j-1.7.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.21/5f537a1ecb32fe3173a95f3c2c233f35f250faef/jul-to-slf4j-1.7.21-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.slf4j:log4j-over-slf4j:1.7.21">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.21/b3700d97464d99bdcd42c0177d6e7951c94d75ff/log4j-over-slf4j-1.7.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.21/7d7494c4241d0dee8bf0680187282d3dc19844e/log4j-over-slf4j-1.7.21-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.slf4j:slf4j-api:1.7.21">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/f285ac123f201fb4b028bac556928d7cf527ef48/slf4j-api-1.7.21-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.2.RELEASE/368e464f9ce4622722ce0944cc4ba6fa71332b68/spring-boot-autoconfigure-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.2.RELEASE/3215d2d79a393b03fd4fca5e53c9f9dbb05ec10a/spring-boot-autoconfigure-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-aop:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/1.4.2.RELEASE/8046bac04ea163a93b27268fbee16164dbafad5/spring-boot-starter-aop-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/1.4.2.RELEASE/ac766367605e9917de65ad551f1214e2dd07c737/spring-boot-starter-aop-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/1.4.2.RELEASE/b74a1318032bb187ecb7511c18cb93753c5a5154/spring-boot-starter-data-jpa-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/1.4.2.RELEASE/556c790978216f98a1448a13cd1ab87faf2c218c/spring-boot-starter-data-jpa-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-freemarker:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-freemarker/1.4.2.RELEASE/65be0de5e129ef0aecdd1bf4382d50fc785dbbb0/spring-boot-starter-freemarker-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-freemarker/1.4.2.RELEASE/97c321f029f0c242dfdc4b6f94023c8e50f7b1e/spring-boot-starter-freemarker-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/1.4.2.RELEASE/706b5cd5996bd8c03248c3236e90e9d2d7c948db/spring-boot-starter-jdbc-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/1.4.2.RELEASE/beffed07785377c12a73f6a9d2881bdafb9741d7/spring-boot-starter-jdbc-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-jersey:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jersey/1.4.2.RELEASE/dc2bfa6f7170a89b0461bf623347e8be5c9b3607/spring-boot-starter-jersey-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jersey/1.4.2.RELEASE/3b265bf39dd70926f3fb3ecbadd02260142401de/spring-boot-starter-jersey-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.4.2.RELEASE/2799c67340d6a27af5f17a7ecdfa1f50cb1d152d/spring-boot-starter-logging-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.4.2.RELEASE/4da228e8e252ed934007716755c26578709c216/spring-boot-starter-logging-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-mail:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-mail/1.4.2.RELEASE/47e6175a4eec19be015c29b256fed8413a110b7c/spring-boot-starter-mail-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-mail/1.4.2.RELEASE/775fcb9119010fd1354f953a7379fbafda76f4bd/spring-boot-starter-mail-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-test:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.4.2.RELEASE/564b798522d811461ce6c8792c063ae2308898f8/spring-boot-starter-test-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.4.2.RELEASE/d30ff5f0ba69369762c237db47f15fcaba95e3c4/spring-boot-starter-test-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.4.2.RELEASE/1ab1939bb566bbaf25cc1f50cdf955b6c927c4d3/spring-boot-starter-tomcat-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.4.2.RELEASE/2af8bad62707716912fb913cf7d9338ee7fcfe3/spring-boot-starter-tomcat-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-validation:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.4.2.RELEASE/ebd0c4cfb1552cec80e5c7644c1a502c64abec70/spring-boot-starter-validation-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.4.2.RELEASE/d371e818556912f4f46f8b05b056be079e6f1f3e/spring-boot-starter-validation-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.4.2.RELEASE/7145c258f8fba4067f9e3880fad23586c9b8ff10/spring-boot-starter-web-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.4.2.RELEASE/a18cc78388170712a581d2d645f7871aff2adae8/spring-boot-starter-web-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.4.2.RELEASE/c6068dc9688c12509bb1c36fcf6ff4817d46cce2/spring-boot-starter-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.4.2.RELEASE/6bf5be880db87982d8b5517c7cad9c49452fd475/spring-boot-starter-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/1.4.2.RELEASE/12733afdfae9edcb0a1a2e98c3b07815986d1ee4/spring-boot-test-autoconfigure-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/1.4.2.RELEASE/dabbdfda7f6edd70226efec3fd6e25907102c165/spring-boot-test-autoconfigure-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-test:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/1.4.2.RELEASE/c94582bccb1dbc5599bd8d59a703e3650f9adcf3/spring-boot-test-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/1.4.2.RELEASE/b852ea0b651d58116a319f8b2510b1ec0f919fae/spring-boot-test-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot:1.4.2.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.4.2.RELEASE/19ecf2582f58722c08147918982227885f6e31b1/spring-boot-1.4.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.4.2.RELEASE/907b28ab64bb4cf39510249cb532bfa739bc4a0c/spring-boot-1.4.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.data:spring-data-commons:1.12.5.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.12.5.RELEASE/29ed49845ecb804c140a8fea7bb4a524b0502135/spring-data-commons-1.12.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.12.5.RELEASE/d500f5b43154adf581a966796c8ead62e70b5e5e/spring-data-commons-1.12.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.data:spring-data-jpa:1.10.5.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.10.5.RELEASE/1c0c3e53a8047fecf2a8a30e9c2635609fef43ec/spring-data-jpa-1.10.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.10.5.RELEASE/d7f4a63174f17071c3da380f0951e596cd01c77d/spring-data-jpa-1.10.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-aop:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.4.RELEASE/43f3d4a43a8dcc91137e092b981101332a645e4b/spring-aop-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.4.RELEASE/32449a7c2d19a8f471b97a1e279ca19059016a0a/spring-aop-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-aspects:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.3.4.RELEASE/1c71b7e427d898e9374090d6251b25282581bcfa/spring-aspects-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.3.4.RELEASE/10037127bf91ff39455a64e3d9470e875e32dd29/spring-aspects-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-beans:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.4.RELEASE/4fbf4327d6c7f81c821f2d56e8695d394c7b930a/spring-beans-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.4.RELEASE/61dc1018540942e92815db7c781f980943d186c8/spring-beans-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-context-support:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.3.4.RELEASE/cba7cf5a6363fb62e06750383340c94a12d8e9b5/spring-context-support-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.3.4.RELEASE/f8722c1942d2c1a376a0f264884fa878356a6c07/spring-context-support-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-context:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.4.RELEASE/c8086505715fba4927fed3d7e3314692817413b6/spring-context-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.4.RELEASE/4ed48ee8ab4a97ae76c33e95da351a47f5958bad/spring-context-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-core:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.4.RELEASE/da373e491d3863477568896089ee9457bc316783/spring-core-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.4.RELEASE/bfe85287c857ebe7f5a9dea14c24ed8e19ce08b/spring-core-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-expression:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.4.RELEASE/5573955b5373669be0e352a1eb5dc9c87b069cb6/spring-expression-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.4.RELEASE/47a7f2992b3f25f1557116a6e1e41f0303be3a81/spring-expression-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-jdbc:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.4.RELEASE/42175d194cf6aa7c716c0887f30255e5c0a5262c/spring-jdbc-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.4.RELEASE/8cf50150dfe584d6a45f5189d9d7b0c9a05f6c8b/spring-jdbc-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-orm:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.4.RELEASE/f83034fb7ab21434bdb8367fba81d08cfc44556a/spring-orm-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.4.RELEASE/31d4313716cdd372e4ff8437f6481183702eba9f/spring-orm-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-test:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.4.RELEASE/a4e28d4eaaa6174928c3edf784faba78bfc046ec/spring-test-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.4.RELEASE/e8118c791eb2dc3063d488afad7e88e1d04b56e9/spring-test-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-tx:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.4.RELEASE/303d00338193c04312426325121572d2fc1d4ec5/spring-tx-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.4.RELEASE/7adc371fd6aaee7cb259e0a15bc71ddfe532e57a/spring-tx-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-web:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.4.RELEASE/719f05404ba8a9de1516398d31d9622042584f0d/spring-web-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.4.RELEASE/ad08cd52a54c665d820e58f75a7147af13c407f/spring-web-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-webmvc:4.3.4.RELEASE">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.4.RELEASE/79529d7ea72045e92e3dbeb0f4f6919093f47137/spring-webmvc-4.3.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.4.RELEASE/f817c5a05ef052584a707442f956645fd7c1af77/spring-webmvc-4.3.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.yaml:snakeyaml:1.17">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/63577e87886c76228db9f8a2c50ea43cde5072eb/snakeyaml-1.17-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: xml-apis:xml-apis:1.4.01">
+      <CLASSES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/3789d9fada2d3d458c4ba2de349d48780f381ee3/xml-apis-1.4.01.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/GRADLEREPO/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/5502da0c4c0a7916a604356ef19394ccfa30cd4b/xml-apis-1.4.01-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
