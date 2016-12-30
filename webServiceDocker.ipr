@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ArtifactManager">
-    <artifact type="war" name="Gradle : hw : education-0.0.1-SNAPSHOT.war">
-      <output-path>$PROJECT_DIR$/build/classes/artifacts/webService0812</output-path>
+    <artifact type="war" name="Gradle : hw : educationDocker-0.0.1-SNAPSHOT.war">
+      <output-path>$PROJECT_DIR$/build/classes/artifacts/webServiceDocker</output-path>
       <properties id="gradle-properties">
         <options external-project-path="$PROJECT_DIR$" />
       </properties>
-      <root id="archive" name="education-0.0.1-SNAPSHOT.war">
-        <element id="javaee-facet-resources" facet="webService0812_main/web/Web Gradle : education-0.0.1-SNAPSHOT.war" />
+      <root id="archive" name="educationDocker-0.0.1-SNAPSHOT.war">
+        <element id="javaee-facet-resources" facet="webServiceDocker_main/web/Web Gradle : educationDocker-0.0.1-SNAPSHOT.war" />
         <element id="directory" name="WEB-INF">
           <element id="directory" name="classes">
-            <element id="module-output" name="webService0812_main" />
+            <element id="module-output" name="webServiceDocker_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
           </element>
           <element id="directory" name="lib">
@@ -117,20 +117,20 @@
           </element>
         </element>
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/webService0812/exploded/education-0.0.1-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/webServiceDocker/exploded/educationDocker-0.0.1-SNAPSHOT.war/META-INF/MANIFEST.MF" />
         </element>
       </root>
     </artifact>
-    <artifact type="exploded-war" name="Gradle : hw : education-0.0.1-SNAPSHOT.war (exploded)">
-      <output-path>$PROJECT_DIR$/build/classes/artifacts/webService0812/exploded/education-0.0.1-SNAPSHOT.war</output-path>
+    <artifact type="exploded-war" name="Gradle : hw : educationDocker-0.0.1-SNAPSHOT.war (exploded)">
+      <output-path>$PROJECT_DIR$/build/classes/artifacts/webServiceDocker/exploded/educationDocker-0.0.1-SNAPSHOT.war</output-path>
       <properties id="gradle-properties">
         <options external-project-path="$PROJECT_DIR$" />
       </properties>
       <root id="root">
-        <element id="javaee-facet-resources" facet="webService0812_main/web/Web Gradle : education-0.0.1-SNAPSHOT.war" />
+        <element id="javaee-facet-resources" facet="webServiceDocker_main/web/Web Gradle : educationDocker-0.0.1-SNAPSHOT.war" />
         <element id="directory" name="WEB-INF">
           <element id="directory" name="classes">
-            <element id="module-output" name="webService0812_main" />
+            <element id="module-output" name="webServiceDocker_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
           </element>
           <element id="directory" name="lib">
@@ -237,7 +237,7 @@
           </element>
         </element>
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/webService0812/exploded/education-0.0.1-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/webServiceDocker/exploded/educationDocker-0.0.1-SNAPSHOT.war/META-INF/MANIFEST.MF" />
         </element>
       </root>
     </artifact>
@@ -256,22 +256,18 @@
       <entry name="!?*.aj" />
     </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true">
+      <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="webService0812_main" target="1.8" />
-      <module name="webService0812_test" target="1.8" />
+      <module name="webServiceDocker_main" target="1.8" />
+      <module name="webServiceDocker_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="CopyrightManager" default="" />
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/build.gradle" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
-  </component>
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -281,7 +277,8 @@
         <entry key="$PROJECT_DIR$/../eduTrunk" value="1481017456636" />
         <entry key="$PROJECT_DIR$/../hw20160530" value="1465895490878" />
         <entry key="$PROJECT_DIR$/../hwWebService" value="1465375013491" />
-        <entry key="$PROJECT_DIR$" value="1481864322350" />
+        <entry key="$PROJECT_DIR$/../webService0812" value="1483000467965" />
+        <entry key="$PROJECT_DIR$" value="1483000429684" />
       </map>
     </option>
     <option name="externalProjectsViewState">
@@ -324,17 +321,20 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webService0812.iml" filepath="$PROJECT_DIR$/.idea/modules/webService0812.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webService0812_main.iml" filepath="$PROJECT_DIR$/.idea/modules/webService0812_main.iml" group="webService0812" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webService0812_test.iml" filepath="$PROJECT_DIR$/.idea/modules/webService0812_test.iml" group="webService0812" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webServiceDocker.iml" filepath="$PROJECT_DIR$/.idea/modules/webServiceDocker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webServiceDocker_main.iml" filepath="$PROJECT_DIR$/.idea/modules/webServiceDocker_main.iml" group="webServiceDocker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webServiceDocker_test.iml" filepath="$PROJECT_DIR$/.idea/modules/webServiceDocker_test.iml" group="webServiceDocker" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -344,10 +344,10 @@
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
-      <module />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -422,6 +422,9 @@
       <listeners />
       <method />
     </configuration>
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="Gradle: antlr:antlr:2.7.7">
@@ -1580,9 +1583,44 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ProjectJDKs.UI">
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>servletAndJsp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
         <settings>
           <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

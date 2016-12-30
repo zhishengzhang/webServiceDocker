@@ -21,6 +21,8 @@
     <bytecodeTargetLevel target="1.7">
       <module name="webService0812_main" target="1.7" />
       <module name="webService0812_test" target="1.7" />
+      <module name="webServiceDocker_main" target="1.7" />
+      <module name="webServiceDocker_test" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

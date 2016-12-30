@@ -1,0 +1,9 @@
+/fonts/
+/logback.xml
+/static/
+/task.xml
+/templates/
+/application-test.properties
+/application.properties
+/com/
+/ehcache.xml

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webServiceDocker.iml" filepath="$PROJECT_DIR$/.idea/modules/webServiceDocker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webServiceDocker_main.iml" filepath="$PROJECT_DIR$/.idea/modules/webServiceDocker_main.iml" group="webServiceDocker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webServiceDocker_test.iml" filepath="$PROJECT_DIR$/.idea/modules/webServiceDocker_test.iml" group="webServiceDocker" />
+    </modules>
+  </component>
+</project>

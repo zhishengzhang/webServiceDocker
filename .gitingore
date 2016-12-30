@@ -1,0 +1,14 @@
+.project 
+.classpath 
+.settings 
+.gitignore 
+.git
+.bin
+.gradle 
+.build
+.idea
+.classes
+.logs
+*.ipr
+*.iws
+
