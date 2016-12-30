@@ -35,7 +35,7 @@ war {
 //sourceCompatibility = 1.8
 // targetCompatibility = 1.8
 
-mainClassName = "com.slfinance.work.EducationApplication"
+mainClassName = "com.slfinance.work.ProjectApplication"
 applicationDefaultJvmArgs = ["-Dfile.encoding=UTF-8"]
 
 repositories {

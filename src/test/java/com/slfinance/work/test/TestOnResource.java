@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import zhang.work.EducationApplication;
+import zhang.work.ProjectApplication;
 
 /**
  * resource层测试工具类
@@ -13,7 +13,7 @@ import zhang.work.EducationApplication;
  * 
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes=EducationApplication.class)
+@SpringBootTest(classes=ProjectApplication.class)
 public abstract class TestOnResource {
 
 }
