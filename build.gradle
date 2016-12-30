@@ -105,10 +105,3 @@ task buildDocker(type: Docker, dependsOn: build) {
     }
 }
 
-docker {
-    useApi true
-    hostUrl 'http://192.16.3.135:2357'
-    apiUsername 'nanjiwubing'
-    apiPassword 'haituoxie123'
-    apiEmail '317919091@qq.com'
-}
