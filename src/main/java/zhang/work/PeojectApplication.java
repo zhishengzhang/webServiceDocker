@@ -17,10 +17,10 @@ import zhang.work.cfg.JerseyConfig;
 
 @SpringBootApplication
 @EnableAsync
-public class EducationApplication {
+public class PeojectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EducationApplication.class, args);
+		SpringApplication.run(PeojectApplication.class, args);
 	}
 
 	@Bean
