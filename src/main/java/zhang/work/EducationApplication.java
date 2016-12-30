@@ -1,4 +1,4 @@
-package com.slfinance.work;
+package zhang.work;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
@@ -12,7 +12,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler;
 
-import com.slfinance.work.cfg.JerseyConfig;
+import zhang.work.cfg.JerseyConfig;
+
 
 @SpringBootApplication
 @EnableAsync

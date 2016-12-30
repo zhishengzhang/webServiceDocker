@@ -1,4 +1,4 @@
-package com.slfinance.work;
+package zhang.work;
 
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.cache.ehcache.EhCacheCacheManager;

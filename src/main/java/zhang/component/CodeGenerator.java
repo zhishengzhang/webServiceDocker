@@ -1,5 +1,5 @@
 
-package com.slfinance.component;
+package zhang.component;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

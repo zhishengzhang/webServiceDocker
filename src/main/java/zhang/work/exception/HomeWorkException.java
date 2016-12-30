@@ -1,4 +1,4 @@
-package com.slfinance.work.exception;
+package zhang.work.exception;
 
 public class HomeWorkException extends RuntimeException {
 

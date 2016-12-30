@@ -1,4 +1,4 @@
-package com.slfinance.work;
+package zhang.work;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;

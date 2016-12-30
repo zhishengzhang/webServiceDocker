@@ -1,4 +1,4 @@
-package com.slfinance.work.resource;
+package zhang.work.resource;
 
 import org.springframework.stereotype.Component;
 

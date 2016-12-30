@@ -1,15 +1,16 @@
-package com.slfinance.work.cfg;
+package zhang.work.cfg;
 
-import com.slfinance.work.exception.ServerErrorMapper;
-import com.slfinance.work.filter.CharsetResponseFilter;
 import org.glassfish.jersey.logging.LoggingFeature;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.server.ServerProperties;
 import org.glassfish.jersey.server.spring.scope.RequestContextFilter;
 
+import zhang.work.exception.ServerErrorMapper;
+import zhang.work.filter.CharsetResponseFilter;
+
 public class JerseyConfig extends ResourceConfig {
 	public JerseyConfig() {
-		packages("com.slfinance.work.resource");
+		packages("zhang.work.resource");
 		register(RequestContextFilter.class);
 		register(LoggingFeature.class);
 		register(CharsetResponseFilter.class);
