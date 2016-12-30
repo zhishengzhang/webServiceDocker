@@ -1,6 +1,8 @@
 package com.slfinance.work;
 
-import com.slfinance.work.cfg.JerseyConfig;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
+
 import org.glassfish.jersey.servlet.ServletContainer;
 import org.glassfish.jersey.servlet.ServletProperties;
 import org.springframework.boot.SpringApplication;
@@ -10,8 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler;
 
-import java.util.concurrent.Executor;
-import java.util.concurrent.Executors;
+import com.slfinance.work.cfg.JerseyConfig;
 
 @SpringBootApplication
 @EnableAsync

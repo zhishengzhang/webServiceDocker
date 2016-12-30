@@ -1,8 +1,3 @@
-/** 
- * @(#)CharsetResponseFilter.java 1.0.0 2016年12月22日 下午1:36:05  
- *  
- * Copyright © 2016 善林金融.  All rights reserved.  
- */
 
 package com.slfinance.work.filter;
 
